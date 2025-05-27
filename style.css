@@ -1,0 +1,66 @@
+/* Reset and layout */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e003e; /* Deep purple */
+  font-family: 'Playfair Display', serif;
+  color: #f5deb3; /* Fawn/Beige */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 90%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.85;
+}
+
+.cta {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+/* Instagram icon */
+.instagram-link i {
+  font-size: 2rem;
+  color: #f5deb3;
+  transition: transform 0.3s ease;
+}
+
+.instagram-link:hover i {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtext {
+    font-size: 1rem;
+  }
+
+  .cta {
+    font-size: 0.9rem;
+  }
+
+  .instagram-link i {
+    font-size: 1.8rem;
+  }
+}
