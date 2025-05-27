@@ -1,44 +1,50 @@
-/* Reset and layout */
 body {
   margin: 0;
   padding: 0;
-  background-color: #2e003e; /* Deep purple */
-  font-family: 'Playfair Display', serif;
-  color: #f5deb3; /* Fawn/Beige */
+  background-color: #2a0030; /* Deeper, elegant purple */
+  font-family: 'Playfair Display', 'Didot', serif;
+  color: #e9ddc7; /* Soft beige */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   text-align: center;
 }
 
-.container {
-  padding: 20px;
+.box {
+  border: 1px solid #e9ddc7;
+  padding: 40px 30px;
   max-width: 90%;
+  width: 500px;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .subtext {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
+  letter-spacing: 1px;
   opacity: 0.85;
 }
 
 .cta {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  opacity: 0.8;
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.7;
+  margin-bottom: 1.2rem;
 }
 
-/* Instagram icon */
 .instagram-link i {
-  font-size: 2rem;
-  color: #f5deb3;
+  font-size: 1.8rem;
+  color: #e9ddc7;
   transition: transform 0.3s ease;
 }
 
@@ -57,10 +63,10 @@ h1 {
   }
 
   .cta {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
-  .instagram-link i {
-    font-size: 1.8rem;
+  .box {
+    padding: 30px 20px;
   }
 }
