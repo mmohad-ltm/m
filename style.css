@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #2a0030; /* Deeper, elegant purple */
-  font-family: 'Playfair Display', 'Didot', serif;
-  color: #e9ddc7; /* Soft beige */
+  background-color: #2a0030;
+  font-family: 'Cormorant Garamond', serif;
+  color: #e9ddc7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,16 +23,23 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .subtext {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
   opacity: 0.85;
+}
+
+.softnote {
+  font-size: 1rem;
+  margin-bottom: 1.8rem;
+  opacity: 0.6;
+  font-style: italic;
 }
 
 .cta {
@@ -58,7 +65,7 @@ h1 {
     font-size: 2.5rem;
   }
 
-  .subtext {
+  .subtext, .softnote {
     font-size: 1rem;
   }
 
