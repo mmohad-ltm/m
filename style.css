@@ -9,6 +9,20 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
+  position: relative;
+}
+
+.crown-wrapper {
+  position: absolute;
+  top: calc(50% - 270px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.crown {
+  width: 60px;
+  height: auto;
 }
 
 .box {
@@ -17,6 +31,8 @@ body {
   max-width: 90%;
   width: 500px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
 
 h1 {
@@ -59,7 +75,7 @@ h1 {
   transform: scale(1.1);
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 600px) {
   h1 {
     font-size: 2.5rem;
@@ -75,5 +91,13 @@ h1 {
 
   .box {
     padding: 30px 20px;
+  }
+
+  .crown {
+    width: 40px;
+  }
+
+  .crown-wrapper {
+    top: calc(50% - 220px);
   }
 }
