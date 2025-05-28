@@ -17,13 +17,17 @@ body {
 }
 
 .crown-wrapper {
-  margin-bottom: -30px; /* Overlaps border slightly */
+  margin-bottom: 0;
+  margin-top: 1cm;
+  display: flex;
+  justify-content: center;
 }
 
 .crown {
   width: 80px;
   height: auto;
 }
+
 
 .border-box {
   border: 2px solid #e9ddc7;
