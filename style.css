@@ -62,6 +62,9 @@ h1 {
 
 /* Responsive */
 @media (max-width: 600px) {
+  body {
+    background-color: #12002b;
+  }
   h1 {
     font-size: 2rem;
   }
