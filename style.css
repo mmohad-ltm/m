@@ -85,7 +85,7 @@ h1 {
   justify-content: center;
   margin-bottom: -10px; /* Pull it closer to the border */
   position: relative;
-  top: 0.35cm; /* Position 0.7cm above the border */
+  top: -0.35cm; /* Position 0.7cm above the border */
   left: 0.2cm
 }
 
